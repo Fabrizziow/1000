@@ -1,0 +1,17 @@
+.card img {
+    width: 150px;  /* Ajusta el tamaño del cuadrado */
+    height: 150px;
+    object-fit: cover;  /* Para recortar y encajar la imagen sin deformarla */
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Permite que la card se expanda */
+    max-width: 600px; /* Ajusta el ancho máximo */
+}
+
+.card-content {
+    flex: 1;  /* Hace que el contenido ocupe más espacio */
+    padding: 20px;
+}
